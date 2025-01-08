@@ -13,6 +13,7 @@ private-ip-answer = true
 dns-direct-fallback-proxy = true
 
 [Rule]
+RULE-SET,https://raw.githubusercontent.com/melody-git/Rules/refs/heads/main/direct.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,REJECT
