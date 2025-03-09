@@ -23,23 +23,43 @@ static=🤖 AI Platforms, PROXY, DIRECT, img-url=https://raw.githubusercontent.c
 static=🎥 Netflix, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 static=🐭 Disney+, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 static=🎵 TikTok, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🚀 节点选择, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 static=🐟 Final, PROXY, ♻️ 故障切换, DIRECT, 🛑 广告拦截, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 
 [server_remote]
 
 
 [filter_remote]
-https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/airports.list, tag=机场专线, force-policy=✈️ 机场专线, enabled=true
-https://limbopro.com/Adblock4limbo.list, tag=毒奶特供(去网页广告计划), force-policy=🛑 广告拦截, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list, tag=🎥 Netflix, force-policy=🎥 Netflix, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Disney/Disney.list, tag=🐭 Disney+, force-policy=🐭 Disney+, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/TikTok/TikTok.list,tag=🎵 TikTok, force-policy=🎵 TikTok, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=🍎 苹果服务, force-policy=🍎 苹果服务, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list, tag=🤖 AI Platforms, force-policy=🤖 AI Platforms, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BardAI/BardAI.list, tag=🤖 AI Platforms, force-policy=🤖 AI Platforms, enabled=true
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Claude/Claude.list, tag=🤖 AI Platforms, force-policy=🤖 AI Platforms, enabled=true
-https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/AI_Platforms_qx.list, tag=🤖 AI Platforms, force-policy=🤖 AI Platforms, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyGFWlist.list, tag=🐭 GFW, force-policy=🐭 Disney+, enabled=true
+https://raw.githubusercontent.com/melody-git/Rules/main/Direct.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/melody-git/Rules/main/Proxy.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
 
 [rewrite_remote]
 https://limbopro.com/Adblock4limbo.conf, tag=毒奶特供(去网页广告计划), enabled=true
