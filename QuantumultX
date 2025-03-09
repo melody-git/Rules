@@ -24,15 +24,15 @@ server=[2400:3200:baba::1]
 server=[2400:3200::1]
 
 [policy]
-static=🛑 广告拦截, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/limbopro/Qure/master/IconSet/Advertising.png
-available=♻️ 故障切换, 无用节点1, 无用节点2, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Available.png
-static=✈️ 机场专线, PROXY, DIRECT, ♻️ 故障切换, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/rocket.png
-static=🍎 苹果服务, DIRECT, PROXY, ♻️ 故障切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-static=🤖 AI Platforms, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/AI%20Platforms.png
-static=🎥 Netflix, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Netflix_Letter.png
-static=🐭 Disney+, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Disney+.png
-static=🎵 TikTok, PROXY, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/TikTok.png
-static=🐟 Final, PROXY, ♻️ 故障切换, DIRECT, 🛑 广告拦截, img-url=https://raw.githubusercontent.com/limbopro/Zure/master/IconSet/Final.png
+static=🛑 广告拦截, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+available=♻️ 故障切换, 无用节点1, 无用节点2, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=✈️ 机场专线, PROXY, DIRECT, ♻️ 故障切换, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🍎 苹果服务, DIRECT, PROXY, ♻️ 故障切换, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🤖 AI Platforms, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🎥 Netflix, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🐭 Disney+, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🎵 TikTok, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🐟 Final, PROXY, ♻️ 故障切换, DIRECT, 🛑 广告拦截, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 
 [server_remote]
 
