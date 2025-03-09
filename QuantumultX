@@ -12,56 +12,47 @@ no-ipv6
 no-system
 server=223.5.5.5
 server=114.114.114.114
-server=119.29.29.29
 
 [policy]
-static=🛑 广告拦截, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-available=♻️ 故障切换, 无用节点1, 无用节点2, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static=✈️ 机场专线, PROXY, DIRECT, ♻️ 故障切换, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static=🍎 苹果服务, DIRECT, PROXY, ♻️ 故障切换, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static=🤖 AI Platforms, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static=🎥 Netflix, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static=🐭 Disney+, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static=🎵 TikTok, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static=🚀 节点选择, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-static=🍃 应用净化, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-
-static=🐟 Final, PROXY, ♻️ 故障切换, DIRECT, 🛑 广告拦截, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
+static=🚀 节点选择, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SS.png
+static=🛑 广告拦截, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
+static=🍃 应用净化, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
+static=🐟 Final, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SS.png
 
 [server_remote]
 
 
 [filter_remote]
-https://raw.githubusercontent.com/melody-git/Rules/main/Direct.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/melody-git/Rules/main/Proxy.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list, tag=🚀 节点选择, force-policy=🚀 节点选择, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, tag=🎯 全球直连, force-policy=🎯 全球直连, enabled=true
+,https://raw.githubusercontent.com/melody-git/Rules/main/Direct.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/melody-git/Rules/main/Proxy.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
 
 [rewrite_remote]
 https://limbopro.com/Adblock4limbo.conf, tag=毒奶特供(去网页广告计划), enabled=true
