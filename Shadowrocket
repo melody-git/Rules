@@ -13,8 +13,9 @@ private-ip-answer = true
 dns-direct-fallback-proxy = true
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/melody-git/Rules/refs/heads/main/Direct.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/melody-git/Rules/refs/heads/main/Proxy.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/melody-git/Rules/main/Direct.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/melody-git/Rules/main/Proxy.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,REJECT
@@ -38,9 +39,11 @@ RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list,PROXY
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,DIRECT
 GEOIP,CN,DIRECT
-FINAL,DIRECT
+FINAL,PROXY
 
 [Host]
 localhost = 127.0.0.1
