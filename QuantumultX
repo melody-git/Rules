@@ -24,6 +24,7 @@ static=🐟 Final, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Kool
 
 
 [filter_remote]
+https://limbopro.com/Adblock4limbo.list, tag=毒奶特供(去网页广告计划), force-policy=🛑 广告拦截, enabled=true
 https://raw.githubusercontent.com/melody-git/Rules/main/Direct.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/melody-git/Rules/main/Proxy.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
