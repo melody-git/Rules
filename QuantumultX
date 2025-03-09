@@ -24,13 +24,13 @@ static=🐟 Final, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Kool
 
 
 [filter_remote]
-,https://raw.githubusercontent.com/melody-git/Rules/main/Direct.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/melody-git/Rules/main/Direct.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/melody-git/Rules/main/Proxy.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list, tag=🚀 节点选择, force-policy=🚀 节点选择, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list, tag=🛑 广告拦截, force-policy=🛑 广告拦截, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list, tag=🍃 应用净化, force-policy=🍃 应用净化, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=172800, opt-parser=true, enabled=true
