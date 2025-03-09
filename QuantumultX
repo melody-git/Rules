@@ -25,6 +25,8 @@ static=🐭 Disney+, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini
 static=🎵 TikTok, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 static=🚀 节点选择, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+static=🍃 应用净化, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+
 static=🐟 Final, PROXY, ♻️ 故障切换, DIRECT, 🛑 广告拦截, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 
 [server_remote]
