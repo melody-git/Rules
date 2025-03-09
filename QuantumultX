@@ -1,10 +1,3 @@
-;预配置作者
-;毒奶博主
-;limbopro.com
-;09.11.2024 更新   
-;https://t.me/limboprossr 关注更新
-;https://t.me/Adblock4limbo 群组反馈与讨论交流
-
 [general]
 
 #解析器作者 @XIAO_KOP 
@@ -15,13 +8,11 @@ geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubuserc
 
 
 [dns]
-;no-ipv6
+no-ipv6
 no-system
 server=223.5.5.5
 server=114.114.114.114
 server=119.29.29.29
-server=[2400:3200:baba::1]
-server=[2400:3200::1]
 
 [policy]
 static=🛑 广告拦截, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
@@ -48,14 +39,14 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BardAI/BardAI.list, tag=🤖 AI Platforms, force-policy=🤖 AI Platforms, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Claude/Claude.list, tag=🤖 AI Platforms, force-policy=🤖 AI Platforms, enabled=true
 https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/AI_Platforms_qx.list, tag=🤖 AI Platforms, force-policy=🤖 AI Platforms, enabled=true
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyGFWlist.list, tag=🐭 GFW, force-policy=🐭 Disney+, enabled=true
 
 [rewrite_remote]
 https://limbopro.com/Adblock4limbo.conf, tag=毒奶特供(去网页广告计划), enabled=true
 https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, tag=Sub-store(高级订阅管理器), enabled=true
 
 [server_local]
-shadowsocks=example.com:80, method=aes-128-gcm, password=pwd, obfs=ws, fast-open=false, tag=无用节点1
-shadowsocks=example.com:80, method=aes-128-gcm, password=pwd, obfs=ws, fast-open=false, tag=无用节点2
+
 
 [filter_local]
 geoip, cn, direct
