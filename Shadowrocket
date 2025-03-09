@@ -13,6 +13,7 @@ private-ip-answer = true
 dns-direct-fallback-proxy = true
 
 [Rule]
+RULE-SET,https://limbopro.com/Adblock4limbo.list,REJECT
 RULE-SET,https://raw.githubusercontent.com/melody-git/Rules/main/Direct.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/melody-git/Rules/main/Proxy.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list,DIRECT
