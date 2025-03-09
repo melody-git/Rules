@@ -14,11 +14,11 @@ server=223.5.5.5
 server=114.114.114.114
 
 [policy]
-static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png
-static=🚀 节点选择, PROXY, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SS.png
-static=🛑 广告拦截, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
-static=🍃 应用净化, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
-static=🐟 Final, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SS.png
+static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
+static=🚀 节点选择, PROXY, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
+static=🛑 广告拦截, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
+static=🍃 应用净化, REJECT, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Reject.png
+static=🐟 Final, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 
 [server_remote]
 
