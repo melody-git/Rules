@@ -59,8 +59,8 @@ https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list, tag=🎯 全球直连, force-policy=🎯 全球直连, update-interval=-1, opt-parser=true, enabled=true
 
 [rewrite_remote]
-https://limbopro.com/Adblock4limbo.conf, tag=毒奶特供(去网页广告计划), enabled=true
-https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, tag=Sub-store(高级订阅管理器), enabled=true
+https://limbopro.com/Adblock4limbo.conf, tag=毒奶特供(去网页广告计划), update-interval=-1, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, tag=Sub-store(高级订阅管理器), update-interval=-1, opt-parser=false, enabled=true
 
 [server_local]
 
