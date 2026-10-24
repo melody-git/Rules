@@ -1,52 +1,21 @@
-# --------------------------------------------------
-# 收集整理测试：优雅数字派丨yoyapai.com
-# 客户端内核：Clash Meta（Mihomo）内核
-# --------------------------------------------------
-# 该配置文件请使用基于Clash Meta（Mihomo）内核的Clash翻墙软件
-# 每天最新免费节点网址：yoyapai.com
-# 为应对大量对本站的爬取行为，订阅URL格式会每天更改。因此，如无法成功导入，请前往上述网址获取最新订阅地址
-# --------------------------------------------------
-mixed-port: 7890
-allow-lan: false
-mode: rule
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
 log-level: info
-ipv6: false
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 dns:
   enable: true
-  listen: 127.0.0.1:1053
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-  proxy-server-nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-  nameserver-policy:
-    geosite:geolocation-!cn:
-      - https://1.1.1.1/dns-query#🚀 节点选择
-      - https://8.8.8.8/dns-query#🚀 节点选择
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 proxies:
-  - name: ❓未知丨yoyapai.com
-    type: vless
-    server: funagfrdfs.alixxplay.com
-    port: 46105
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    servername: www.lamer.com.sg
-    tls: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-      short-id: 28f5c1f8f98a
-    skip-cert-verify: false
-    udp: true
-  - name: 🇭🇰HK香港_2
+  - name: 香港
     type: vmess
     server: yg1.ygkkk.dpdns.org
     port: 443
@@ -62,4 +31,3 @@ proxies:
       headers:
         Host: jmp1.907737.xyz
     udp: true
-
