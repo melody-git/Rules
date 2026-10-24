@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 香港
+  - name: 美丽国
     type: vmess
     server: yg1.ygkkk.dpdns.org
     port: 443
